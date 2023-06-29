@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from "react";
+import alertSound from '../assets/alertsound.mp3';
 
 
 const GlobalContext = createContext();
@@ -11,7 +12,7 @@ const AppContext = ({children}) => {
 	const alertMessage = 'This is a demo, this functionality is not currently available...';
 
 	const handleAlert = () => {
-		const audio = new Audio('src/assets/alertsound.mp3');
+		const audio = new Audio(alertSound);
 		audio.play();
 		setAlert(true);
 		setTimeout(() => {
