@@ -4,9 +4,9 @@ $green: #71a894;
 $lightGold: #f3f0ea;
 $white: #ffffff;
 $bgColor: #f9f9f9;
-$ffMain: 'Proxima Nova';
-$ffLogo: 'Futura Round Demi';
-$ffTitle: 'Bely Display';
+$ffMain: 'Inconsolata', monospace;
+$ffLogo: 'Rubik', sans-serif;
+$ffTitle: 'Caprasimo', cursive;
 @mixin headerHeight {
   min-height: 50px;
 }

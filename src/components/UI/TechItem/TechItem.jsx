@@ -4,7 +4,7 @@ import styles from './TechItem.module.scss'
 const TechItem = ({img, title, text}) => {
 	return (
 		<div className={styles.techItem}>
-			<img src={img} alt="logo" />
+			<img src={img} alt="logo" loading=" lazy"/>
 			<h3>{title}</h3>
 			<p>{text}</p>
 		</div>

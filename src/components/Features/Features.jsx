@@ -15,7 +15,7 @@ const Features = () => {
     {
       type: 'h2',
       paragraph: 'primary',
-      element: <img src={cardImg1} alt="Card Icon" />,
+      element: <img src={cardImg1} alt="Card Icon" loading=" lazy"/>,
       title: 'Kickstart an organization with your co-founders',
       text: 'It’s the early days, you just had a long conversation with two friends about a meaningful challenge that you’re all passionate about and have a potential solution for. You’re ready to embark the startup journey.',
 			cardBlock: 'cardBlock',
@@ -23,7 +23,7 @@ const Features = () => {
     {
       type: 'h2',
       paragraph: 'primary',
-      element: <img src={cardImg2} alt="Card Icon" />,
+      element: <img src={cardImg2} alt="Card Icon" loading=" lazy"/>,
       title: 'Onboard users, investors and advisors as you grow',
       text: 'You’ve bootstrapped and delivered an MVP, and some investors and advisors are interested in having a chat with you. As an Open Enterprise, you can onboard them seamlessly into your digital organization and align them with your success.',
 			cardBlock: 'cardBlock',
@@ -31,7 +31,7 @@ const Features = () => {
     {
       type: 'h2',
       paragraph: 'primary',
-      element: <img src={cardImg3} alt="Card Icon" />,
+      element: <img src={cardImg3} alt="Card Icon" loading=" lazy"/>,
       title: 'Engage highly committed contributors',
       text: 'You need talented people on-demand across various tasks that your full-time workforce can’t prioritize at the moment. As an Open Enterprise, you can easily fund tasks and have people apply to work on them in return for funds or shares.',
 			cardBlock: 'cardBlock',
@@ -47,7 +47,7 @@ const Features = () => {
     img3,
   ];
   const imageElements = featurewidgetUrls.map(image => (
-    <img key={image} src={image} alt="widjet" />
+    <img key={image} src={image} alt="widjet" loading=" lazy"/>
   ));
 
   const splitData = [

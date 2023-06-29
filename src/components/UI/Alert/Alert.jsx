@@ -6,7 +6,7 @@ import emogi2 from '../../../assets/sadEmoji.svg';
 
 const Alert = ({message}) => {
 	return (
-		<div className={styles.alert} >{message || `Oops, unknown error`}{message ? <img src={emogi1} alt='Sorry...'/> : <img src={emogi2} alt='Sorry...'/>}</div>
+		<div className={styles.alert} >{message || `Oops, unknown error`}{message ? <img src={emogi1} alt='Sorry...' loading=" lazy"/> : <img src={emogi2} alt='Sorry...' loading=" lazy"/>}</div>
 	)
 }
 

@@ -19,7 +19,7 @@ const Hero = () => {
 
 	const splitData = {
 		section1: <TripleText {...TripleTextData}/>,
-		section2: <img src={heroImage} alt="Hero Preview Imgae" />,
+		section2: <img src={heroImage} alt="Hero Preview Imgae" loading=" lazy"/>,
 	};
 
 

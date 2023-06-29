@@ -17,7 +17,7 @@ const Request = () => {
 
 	const splitData = {
 		section1: <TripleText {...TripleTextData}/>,
-		section2: <img src={img} alt="Request Preview Imgae" />,
+		section2: <img src={img} alt="Request Preview Imgae" loading=" lazy"/>,
 	};
 
 
