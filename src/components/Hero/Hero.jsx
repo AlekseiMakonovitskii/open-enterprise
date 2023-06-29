@@ -4,6 +4,7 @@ import Split from '../UI/Split/Split'
 import TripleText from '../UI/TripleText/TripleText';
 import Button from '../UI/Button/Button';
 import Scrollicon from '../UI/Scrollicon/Scrollicon';
+import heroImage from '../../assets/hero-img.svg';
 
 const Hero = () => {
 	const TripleTextData = {
@@ -18,7 +19,7 @@ const Hero = () => {
 
 	const splitData = {
 		section1: <TripleText {...TripleTextData}/>,
-		section2: <img src='src/assets/hero-img.svg' alt="Hero Preview Imgae" />,
+		section2: <img src={heroImage} alt="Hero Preview Imgae" />,
 	};
 
 
