@@ -1,0 +1,41 @@
+@import url('//db.onlinewebfonts.com/c/8ffe55aed043353e544d40e9876e9048?family=Bely+Display');
+@import url('//db.onlinewebfonts.com/c/0376a58122a881d16a294512d3c947b1?family=ProximaNova-Regular');
+@import url('//db.onlinewebfonts.com/c/2f9e0418fd05fea16ffa248e6ef1646d?family=Bely');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import 'settings';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: $bgColor;
+	cursor: default;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+

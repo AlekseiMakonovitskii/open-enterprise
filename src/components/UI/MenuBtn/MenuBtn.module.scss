@@ -1,0 +1,14 @@
+@import '../../../sass/settings.scss';
+
+.button {
+	background: none;
+	border: none;
+	height: 100%;
+	width: 100%;
+
+	
+
+	& > *:hover {
+		fill: $green;
+	}
+}

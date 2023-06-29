@@ -1,0 +1,118 @@
+$black: #303031;
+$gray: #66645e;
+$green: #71a894;
+$lightGold: #f3f0ea;
+$white: #ffffff;
+$bgColor: #f9f9f9;
+$ffMain: 'Proxima Nova';
+$ffLogo: 'Futura Round Demi';
+$ffTitle: 'Bely Display';
+@mixin headerHeight {
+  min-height: 50px;
+}
+
+
+@mixin logoText {
+  color: $black;
+  font-size: 2rem;
+  font-family: $ffLogo, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.08rem;
+}
+
+@mixin navText {
+  color: $black;
+  font-size: 1.3rem;
+  font-family: $ffMain, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.025rem;
+
+  @media (min-width: 1000px) {
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+  }
+}
+
+@mixin heroTitile {
+  color: $black;
+  font-size: 1.8rem;
+  font-family: $ffTitle, sans-serif;
+
+  @media (min-width: 1000px) {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5rem;
+    text-align: left;
+  }
+}
+
+@mixin heroText {
+  color: $gray;
+  font-size: 1.1rem;
+  font-family: $ffMain, sans-serif;
+  line-height: 2rem;
+  letter-spacing: -0.03rem;
+
+  @media (min-width: 1000px) {
+    text-align: left;
+  }
+}
+
+@mixin titles {
+  color: $black;
+  font-size: 1.4rem;
+  font-family: $ffTitle, sans-serif;
+  line-height: 2rem;
+  @media (min-width: 1000px) {
+    text-align: left;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem;
+  }
+}
+
+@mixin centerTitles {
+  color: $black;
+  font-size: 1.4rem;
+  font-family: $ffTitle, sans-serif;
+  line-height: 2rem;
+  @media (min-width: 1000px) {
+    text-align: center!important;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem;
+  }
+}
+
+@mixin text {
+  color: $black;
+  font-size: 1rem;
+  font-family: $ffMain, sans-serif;
+  line-height: 1.625rem;
+  letter-spacing: -0.0225rem;
+  @media (min-width: 1000px) {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+
+  }
+}
+
+@mixin buttonText {
+  color: $white;
+  font-size: 1.125rem;
+  font-family: $ffMain, sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+}

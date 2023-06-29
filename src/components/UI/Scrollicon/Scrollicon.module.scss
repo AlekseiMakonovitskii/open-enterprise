@@ -1,0 +1,24 @@
+@import '../../../sass/settings.scss';
+
+.scrollicon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-self:center;
+	height: fit-content;
+	padding-bottom: 1em;
+	
+	a {
+		color: $black;
+
+		&:hover {
+			color: $green;
+		}
+	}
+
+	p{
+		@include heroText;
+	}
+
+	
+}

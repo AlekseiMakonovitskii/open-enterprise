@@ -1,0 +1,17 @@
+@import '../../../sass/settings.scss';
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	max-width: 1440px;
+	margin-inline: auto;
+	padding: 0.5rem;
+
+
+	@media (min-width: 1000px) {
+		padding: 3rem;
+	}
+}

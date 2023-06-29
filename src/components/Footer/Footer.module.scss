@@ -1,0 +1,52 @@
+@import '../../sass/settings.scss';
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	h2 {
+		@include logoText;
+	}
+
+	h3 {
+		@include heroTitile;
+		font-size: 1.1rem;
+	}
+
+	a {
+		@include navText;
+
+
+		&:hover {
+			color: $green;
+		}
+	}
+
+
+	@media (min-width: 1000px) {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+		h2 {
+	
+		}
+
+		h3 {
+			
+			font-size: 1.2rem;
+		}
+
+		ul {
+			max-width: fit-content;
+			display: flex;
+			justify-content: space-between;
+
+			& > * + * {
+				margin-left: 1em;
+			}
+		}
+	}
+}

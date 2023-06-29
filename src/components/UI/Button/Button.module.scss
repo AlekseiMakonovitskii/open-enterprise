@@ -1,0 +1,26 @@
+@import '../../../sass/settings.scss';
+
+.button {
+	max-width: fit-content;
+	padding: 0.8rem 0.8rem;
+	align-items: center;
+	@include buttonText();
+	border: none;
+	border-radius: 8px;
+}
+
+.dark {
+	background: $black;
+
+	&:hover {
+		background: $green;
+	}
+}
+
+.light {
+	background: $green;
+
+	&:hover {
+		background: $black;
+	}
+}
