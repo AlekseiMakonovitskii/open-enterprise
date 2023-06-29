@@ -4,6 +4,7 @@ import styles from './Request.module.scss';
 import Split from '../UI/Split/Split';
 import Button from '../UI/Button/Button';
 import TripleText from '../UI/TripleText/TripleText';
+import img from '../../assets/requestImg.png';
 
 const Request = () => {
 	const TripleTextData = {
@@ -16,7 +17,7 @@ const Request = () => {
 
 	const splitData = {
 		section1: <TripleText {...TripleTextData}/>,
-		section2: <img src='src/assets/requestImg.png' alt="Request Preview Imgae" />,
+		section2: <img src={img} alt="Request Preview Imgae" />,
 	};
 
 
